@@ -1682,7 +1682,7 @@ class Padchat extends EventEmitter {
   }
 
   /**
-  * 添加标签
+  * 创建标签
   *
   * @param {string} label - 标签名称
   * @returns {Promise<object>} 返回Promise<object>，注意捕捉catch
@@ -1729,7 +1729,7 @@ class Padchat extends EventEmitter {
   * 设置用户标签
   *
   * @param {string} userId - 用户wxid
-  * @param {string} labelId - 标签id
+  * @param {number} labelId - 标签id
   * @returns {Promise<object>} 返回Promise<object>，注意捕捉catch
   * ```
   {
